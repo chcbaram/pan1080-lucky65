@@ -77,7 +77,7 @@ target_compile_options(${EXECUTABLE} PRIVATE
   )
 
 target_link_options(${EXECUTABLE} PRIVATE
-  -T../src/bsp/ldscript/W7500_FLASH.ld
+  -T../src/bsp/ldscript/PAN1080_FLASH.ld
   -mcpu=cortex-m0
   -mthumb
   -mfloat-abi=soft

@@ -25,7 +25,7 @@
     },  
     // {
     //   "cwd": "${workspaceFolder}",
-    //   "executable": "./build/wiznet-surf5-fw.elf",
+    //   "executable": "./build/pan1080-fw.elf",
     //   "name": "Debug with PyOCD",
     //   "request": "launch",
     //   "type": "cortex-debug",
