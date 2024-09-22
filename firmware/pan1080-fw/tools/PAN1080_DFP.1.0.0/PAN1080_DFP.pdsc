@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package schemaVersion="1.2" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="PACK.xsd">
+  <vendor>Nuvoton</vendor>
+  <url>https://github.com/OpenNuvoton/cmsis-packs/raw/master/Nuvoton_DFP/</url>
+  <name>PAN1080_DFP</name>
+  <description>ARM Cortex-M NuMicro Family Device Support</description>
+
+  <releases>
+    <release version="1.0.0" date="2023-12-02">
+      First Released
+    </release>
+  </releases>
+
+  <keywords>
+    <!-- keywords for indexing -->
+    <keyword>PANCHIP</keyword>
+    <keyword>Device Support</keyword>
+    <keyword>Device Family Package PAN1080</keyword>
+    <keyword>PAN1080</keyword>
+  </keywords>
+
+  <devices>
+    <!-- generated, do not modify this section! -->
+    <family Dfamily="PAN1080 Family" Dvendor="PANCHIP">
+      <!-- *************************  Subfamily 'Generic'  ***************************** -->
+      <subFamily DsubFamily="Generic">
+        <description>The PANCHIP PAN1080 Series 32-bit microcontroller</description>
+        <!-- *************************  Device 'Generic M051'  ***************************** -->
+        <device Dname="PAN1080">
+          <processor  Dcore="Cortex-M0"  Dclock="64000000"/>
+          <memory     id="FLASH"   start="0x00000000"  size="0x100000"    startup="1"   default="1"/>
+          <memory     id="SRAM"    start="0x20000000"  size="0x10000"     init   ="0"   default="1"/>
+          <algorithm  name  ="Flash/PAN1080_1020KB_FLASH.FLM"     start="0x00000000"  size="0x000FF000"  RAMstart="0x20000000"  RAMsize="0x10000"  default="1"/>
+        </device>
+      </subFamily>
+    </family>
+  </devices>
+
+</package>
